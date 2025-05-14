@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  min-width: 400px;
+  min-height: 300px;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(
+    66deg,
+    rgba(207, 70, 195, 0.76) 0%,
+    rgba(69, 32, 214, 0.49) 71%
+  );
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#slider {
+  display: block;
+}
+#inputField {
+  width: 90%;
+  background-color: #ffffff;
+  font-size: 1.3;
+  padding: 8px;
+  border-radius: 4px;
+  margin-block: 20px;
+  border: none;
+  margin-left: 7px;
+}
+
+#copyIcon {
+  font-size: 1.4em;
+  cursor: pointer;
+  padding-top: 10px;
+  color: rgba(66, 63, 63, 0.689);
+  position: relative;
+}
+#copyTitle {
+  font-size: 0.5em;
+  border-radius: 2px;
+  color: #280227;
+  position: absolute;
+  bottom: 33px;
+  left: -55px;
+  width: 100px;
+  display: none;
+  background-color: #ffffff;
+}
+#slider {
+  width: 85%;
+  margin-left: 13px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.row {
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1px;
+}
+.row label {
+  cursor: pointer;
+  font-size: 1.4em;
+}
+
+.row input {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.row span {
+  font-size: 1.4em;
+}
+
+button {
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 1.4em;
+  color: rgb(5, 51, 21);
+  cursor: pointer;
+  background-color: rgba(149, 224, 237, 0.612);
+  border: none;
+  border-radius: 10px;
+}
